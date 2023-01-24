@@ -1,0 +1,32 @@
+.places {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 50px 0;
+  margin: 0 auto;
+  padding-bottom: 66px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .places {
+    width: calc(100% - 2 * 24px);
+    gap: 73px 0;
+    padding-bottom: 90px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .places {
+    width: calc(100% - 2 * 48px);
+    gap: 80px 0;
+    padding-bottom: 92px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .places {
+    max-width: 1500px;
+    width: calc(100% - 2 * 148px);
+  }
+}

@@ -1,0 +1,19 @@
+.place__text {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  gap: 25px;
+}
+
+@media (min-width: 768px) {
+  .place__text {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .place__text {
+    gap: 27px;
+  }
+}

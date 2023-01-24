@@ -1,0 +1,22 @@
+.cover__link {
+  width: 100%;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  gap: 16px;
+  z-index: 1;
+}
+
+@media (min-width: 544px) {
+  .cover__link {
+    gap: 24px;
+  }
+}
+
+@media (min-width: 768px) {
+  .cover__link {
+    gap: 32px 0;
+  }
+}
