@@ -13,9 +13,10 @@ https://sorokalex.github.io/russian-travel/
 Секции:
 
 1. lead
-2. intro + блок photo-grid
-3. places + блок place
-4. cover
+2. intro
+3. photo-grid
+4. places + блок place
+5. cover
 
 Подавл сайта:
 
