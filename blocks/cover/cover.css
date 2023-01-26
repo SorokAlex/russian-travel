@@ -12,7 +12,7 @@
 
 @media (min-width: 1280px) {
   .cover {
-    max-width: 2000px;
+    max-width: 1184px;
     width: calc(100% - 2 * 48px);
   }
 }

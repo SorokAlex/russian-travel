@@ -1,10 +1,35 @@
 .intro {
-  width: 100%;
+  width: calc(100% - 2 * 16px);
   margin: 0 auto;
+  padding: 0 0 64px 0;
+  box-sizing: border-box;
+}
+
+@media (min-width: 544px) {
+  .intro {
+    width: calc(100% - 2 * 20px);
+    padding-bottom: 76px;
+  }
+}
+
+@media (min-width: 768px) {
+  .intro {
+    width: calc(100% - 2 * 24px);
+    padding-bottom: 88px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .intro {
+    width: calc(100% - 334px);
+    margin: 0 286px 0 48px;
+    padding-bottom: 92px;
+  }
 }
 
 @media (min-width: 1280px) {
   .intro {
-    max-width: 1800px;
+    max-width: 690px;
+    margin: 0 442px 0 148px;
   }
 }
