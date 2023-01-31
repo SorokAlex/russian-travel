@@ -33,7 +33,5 @@
 @media (min-width: 1280px) {
   .place__title {
     max-width: 460px;
-    font-size: 72px;
-    line-height: 1.056;
   }
 }
