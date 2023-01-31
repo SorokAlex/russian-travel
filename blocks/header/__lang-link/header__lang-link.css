@@ -4,16 +4,11 @@
   font-size: 18px;
   line-height: 20px;
   font-weight: 400;
+  transition: opacity .5s linear;
 }
 
 .header__lang-link:hover {
   opacity: .8;
-  transition: opacity .1s linear;
-}
-
-.header__lang-link:lang(Ru) {
-  text-decoration: underline;
-  text-underline-offset: 4px;
 }
 
 @media (min-width: 544px) {
