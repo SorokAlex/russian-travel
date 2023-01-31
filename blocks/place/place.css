@@ -7,8 +7,7 @@
 
 @media (min-width: 768px) {
   .place {
-    width: 100%;
-    grid-template-columns: minmax(340px, 439px) minmax(352px, 1fr);
+    grid-template-columns: minmax(340px, 439px) minmax(352px, 454px);
     gap: 48px 28px;
   }
 }
@@ -22,7 +21,6 @@
 
 @media (min-width: 1280px) {
   .place {
-    max-width: 2000px;
     grid-template-columns: minmax(460px, .9fr) minmax(484px, 1fr);
     gap: 48px 40px;
   }
