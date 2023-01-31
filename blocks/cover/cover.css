@@ -1,33 +1,4 @@
 .cover {
   width: 100%;
   margin: 0 auto;
-  display: flex;
-  position: relative;
-  background-image: url(../../images/cover-trains.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  aspect-ratio: 8/5;
-}
-
-@media (min-width: 1280px) {
-  .cover {
-    max-width: 1184px;
-    width: calc(100% - 2 * 48px);
-  }
-}
-
-.cover::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(42, 44, 47, .3);
-}
-
-.cover:hover::after {
-  background-color: rgba(42, 44, 47, .8);
-  transition: background-color .5s linear;
 }
