@@ -14,6 +14,7 @@
 
 @media (min-width: 768px) {
   .intro {
+    min-width: 720px;
     width: calc(100% - 2 * 24px);
     padding-bottom: 88px;
   }
@@ -21,6 +22,7 @@
 
 @media (min-width: 1024px) {
   .intro {
+    min-width: 690px;
     width: calc(100% - 334px);
     margin: 0 286px 0 48px;
     padding-bottom: 92px;
@@ -29,7 +31,6 @@
 
 @media (min-width: 1280px) {
   .intro {
-    max-width: 690px;
     margin: 0 442px 0 148px;
   }
 }
