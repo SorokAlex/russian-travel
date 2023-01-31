@@ -13,12 +13,14 @@
 
 @media (min-width: 768px) {
   .lead {
+    min-width: 751px;
     padding-bottom: 88px;
   }
 }
 
 @media (min-width: 1024px) {
   .lead {
+    min-width: 928px;
     width: calc(100% - 2 * 48px);
     padding-bottom: 92px;
   }
@@ -26,7 +28,7 @@
 
 @media (min-width: 1280px) {
   .lead {
-    max-width: 984px;
+    min-width: 984px;
     width: calc(100% - 2 * 148px);
   }
 }
