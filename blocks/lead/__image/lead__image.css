@@ -3,3 +3,9 @@
   display: block;
   aspect-ratio: 8/5;
 }
+
+@media (min-width: 768px) {
+  .lead__image {
+    min-height: 480px;
+  }
+}
