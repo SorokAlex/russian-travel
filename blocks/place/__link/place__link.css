@@ -6,9 +6,9 @@
   line-height: 1.22;
   font-weight: 400;
   text-underline-offset: 4px;
+  transition: opacity .5s linear;
 }
 
 .place__link:hover {
   opacity: .8;
-  transition: opacity .1s linear;
 }
