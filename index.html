@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./pages/index.css" />
     <title>Путешествия по России</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
       content="Проектная Работа №3: Путешествия по России"
@@ -23,7 +22,12 @@
       <nav>
         <ul class="header__lang-list">
           <li>
-            <a class="header__lang-link" href="#" lang="ru">Ru</a>
+            <a
+              class="header__lang-link header__lang-link_active"
+              href="#"
+              lang="ru"
+              >Ru</a
+            >
           </li>
           <li>
             <a class="header__lang-link" href="#" lang="en">En</a>
@@ -43,7 +47,7 @@
             src="./images/polka__lead.jpg"
             alt="Спящий человек на полке в вагоне ЖД поезда"
           />
-          <p class="lead__caption">ваша полка — верхняя</p>
+          <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
         </figure>
       </section>
       <section class="intro">
@@ -83,69 +87,69 @@
         <img
           class="photo-grid__item"
           src="./images/photo-grid-train.jpg"
-          alt="Окно ЖД купе с видом на водоем"
+          alt="Окно ЖД купе с видом на водоем."
         />
         <img
           class="photo-grid__item"
           src="./images/photo-grid-atharva-tulsi.jpg"
-          alt="Гора Атхарва Тулси"
+          alt="Гора Атхарва Тулси, покрытая снегом, вершина горы скрыта за облаками."
         />
         <img
           class="photo-grid__item"
           src="./images/photo-grid-tuman.jpg"
-          alt="Туман на поле со стогами сена"
+          alt="Туман над полем со стогами сена и собакой."
         />
         <img
           class="photo-grid__item"
           src="./images/photo-grid-sochi.jpg"
-          alt="Лесной массив города Сочи"
+          alt="Лесной массив города Сочи."
         />
         <img
           class="photo-grid__item"
           src="./images/photo-grid-arisa-chattasa.jpg"
-          alt="Колесо автомоиля на застывшей водной глади"
+          alt="Колесо автомобиля на застывшей водной глади."
         />
         <img
           class="photo-grid__item"
           src="./images/photo-grid-baikal.jpg"
-          alt="Вид прибрежной зоны озера Байкал и горного массива"
+          alt="Вид прибрежной зоны озера Байкал и горного массив."
         />
         <img
           class="photo-grid__item"
           src="./images/photo-grid-elbrus.jpg"
-          alt="Гора Эльбрус"
+          alt="Гора Эльбрус, с покрытой снегом вершиной."
         />
         <img
           class="photo-grid__item"
           src="./images/photo-grid-kondratiev.jpg"
-          alt="Знак пешеходного перехода"
+          alt="Знак пешеходного перехода."
         />
         <img
           class="photo-grid__item"
           src="./images/photo-grid-kamchatka.jpg"
-          alt="Вид на склон камчатской горы"
+          alt="Вид на склон камчатской горы."
         />
         <img
           class="photo-grid__item"
           src="./images/photo-grid-kamchatka2.jpg"
-          alt="У подножья камчатской горы"
+          alt="У подножья камчатской горы."
         />
         <img
           class="photo-grid__item"
           src="./images/photo-grid-baikal2.jpg"
-          alt="Вид с холма на замерзшую прибрежную линию озера Байкал"
+          alt="Вид с холма на замерзшую прибрежную линию озера Байкал."
         />
         <img
           class="photo-grid__item"
           src="./images/photo-grid-ergaki.jpg"
-          alt="Хребет Еграки (Западные Саяны), окутанный туманом"
+          alt="Хребет Еграки (Западные Саяны), окутанный туманом."
         />
       </section>
       <section class="places" aria-label="Природные крастоы России">
         <article class="place">
           <h2 class="place__title">Куршcкая коса</h2>
           <div class="place__website">
-            <h3 class="place__url-heading">URL</h3>
+            <span class="place__url-heading">url</span>
             <a
               class="place__link"
               href="http://park-kosa.ru"
@@ -179,7 +183,7 @@
         <article class="place">
           <h2 class="place__title">Кольский</h2>
           <div class="place__website">
-            <h3 class="place__url-heading">URL</h3>
+            <span class="place__url-heading">url</span>
             <a
               class="place__link"
               href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
@@ -213,7 +217,7 @@
         <article class="place">
           <h2 class="place__title">Алтай</h2>
           <div class="place__website">
-            <h3 class="place__url-heading">URL</h3>
+            <span class="place__url-heading">url</span>
             <a
               class="place__link"
               href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ"
@@ -246,7 +250,7 @@
         <article class="place">
           <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
-            <h3 class="place__url-heading">URL</h3>
+            <span class="place__url-heading">url</span>
             <a
               class="place__link"
               href="https://vk.com/baikalmile"
@@ -269,9 +273,9 @@
             <p class="place__paragraph">
               Конечно, это всё так. Но Байкал ещё идеальное место
               для соревнований по скийорингу. Это такой вид спорта, когда лыжник
-              привязывает себя к&nbsp;мотоциклу, и&nbsp;тандем старается
-              развить как можно бóльшую скорость на льду. В&nbsp;марте 2019 года
-              на фестивале «Байкальская миля» был поставлен&nbsp;мировой рекорд —
+              привязывает себя к&nbsp;мотоциклу, и&nbsp;тандем старается развить
+              как можно бóльшую скорость на льду. В&nbsp;марте 2019 года на
+              фестивале «Байкальская миля» был поставлен&nbsp;мировой рекорд —
               197.011 км/ч.
             </p>
           </div>
@@ -279,7 +283,7 @@
         <article class="place">
           <h2 class="place__title">Карелия</h2>
           <div class="place__website">
-            <h3 class="place__url-heading">URL</h3>
+            <span class="place__url-heading">url</span>
             <a
               class="place__link"
               href="http://vodlozero.ru"
