@@ -18,6 +18,7 @@
 
 @media (min-width: 768px) {
   .header {
+    min-width: 720px;
     width: calc(100% - 2 * 24px);
     padding: 28px 0 48px;
   }
@@ -25,13 +26,14 @@
 
 @media (min-width: 1024px) {
   .header {
+    min-width: 928px;
     width: calc(100% - 2 * 48px);
   }
 }
 
 @media (min-width: 1280px) {
   .header {
-    max-width: 1184px;
+    min-width: 1184px;
     padding: 28px 0 56px;
   }
 }
